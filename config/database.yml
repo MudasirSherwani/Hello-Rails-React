@@ -89,4 +89,3 @@ test:
 production:
   <<: *default
   database: hello_react_pro
-  
