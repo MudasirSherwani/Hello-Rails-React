@@ -1,0 +1,6 @@
+<% if @message.nil? %>
+  <h1> No messages found </h1>
+<% else %>
+    <h1>Random Greeting</h1>
+<p><%= @message.message %></p>
+<% end %>
