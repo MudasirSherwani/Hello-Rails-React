@@ -6,7 +6,7 @@ import store from './redux/store';
 
 function App() {
   return (
-  <Greetings />
+    <Greetings />
   );
 }
 

@@ -1,5 +1,6 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
+
 const FETCH_GREETING = 'redux/messages/FETCH_GREETING';
 
 const url = 'http://127.0.0.1:3000/api/greeting';
